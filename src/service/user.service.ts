@@ -4,4 +4,4 @@ class UserService{
     return '写入数据库成功'
     }
 }
-module.exports = new UserService()
+export default UserService

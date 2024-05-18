@@ -1,10 +1,8 @@
 import koaBody from "koa-body"
-
-const Koa = require ('Koa')
-const {KoaBody} = require('koa-body')
-const useRouter = require('../router/user.route')
-const app1 = new Koa()
-app1.use( koaBody() ) 
-app1.use(useRouter.routes())
-
-module.exports = app1
+import Koa from 'koa'
+import useRouter from '../router/user.route'
+// const useRouter = require('../router/user.route')这里为啥又不行了
+const app = new Koa()
+app.use( koaBody() ) 
+app.use(useRouter.routes())
+export default app

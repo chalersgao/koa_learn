@@ -18,11 +18,11 @@ const seq = new Sequelize( MYSQL_DB  ,MYSQL_USER , MYSQL_PWD ,{
 //     host: "localhost",
 //     dialect:'mysql',
 // })
-seq
+/* seq
 .authenticate()
 .then(()=>{
    console.log('连接成功')
 }).catch(err => {
     console.log('数据库连接失败',err)
-})
-module.exports = seq
+}) */
+ module.exports = seq

@@ -1,4 +1,5 @@
-import UserService from "../service/user.service"
+// import UserService from "../service/user.service"
+const UserService = require("../service/user.service")
 const userervice = new UserService( )
 class UserControler{
     async register(ctx:any,next:any){
@@ -9,7 +10,14 @@ class UserControler{
          const res = await userervice.createUser(user_name,password)
          //  console.log(res)
          //返回数据
-         ctx.body = ctx.request.body
+         ctx.body = {
+            code:0,
+            message:"用户注册成功",
+            result:{
+                id: res.id,
+                user_name:res.user_name,
+            }
+         }
     }
     async login(ctx:any,next:any){
         ctx.body = '登录成功'

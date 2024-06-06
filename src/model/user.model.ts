@@ -18,7 +18,7 @@ const User = seq.define('123',{
         type: DataTypes.BOOLEAN,
         allowNull: false,
         defaultValue: 0,
-        comment:"是否为管理员,0不是,1是"
+        comment:"是否为管理员,0不是(默认),1是"
     }
 },
 {

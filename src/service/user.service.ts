@@ -1,6 +1,6 @@
 const User1 = require("../model/user.model")
 class UserService {
-  async createUser(user_name:any, password:any) {
+  async createUser(user_name:any,   password:any) {
     //插入数据
     //  User.createUser({
     //表的字段

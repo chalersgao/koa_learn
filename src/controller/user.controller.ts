@@ -19,7 +19,7 @@ class UserControler{
             return
          }
          //合理性
-         if( userervice.getUserInfo({ user_name })) {
+         if( userervice.getUserInfo({ user_name  })) {
             ctx.status = 409
             ctx.body={
                 code:'10002',

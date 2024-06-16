@@ -7,7 +7,7 @@ const User = seq.define('123',{
         type:DataTypes.STRING,
         allowNull: false,
         unique:true,
-        comment:'用户名，唯一'
+        comment:'用户名(要求唯一)'
     },
     password:{
         type:DataTypes.CHAR(64),

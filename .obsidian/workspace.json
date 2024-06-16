@@ -4,24 +4,6 @@
     "type": "split",
     "children": [
       {
-        "id": "b4ce16d7a02406ae",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "d88c8955ef036d42",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "ReadMe.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          }
-        ]
-      },
-      {
         "id": "e0de6f2c1f9cc4a6",
         "type": "tabs",
         "children": [
@@ -32,6 +14,37 @@
               "type": "markdown",
               "state": {
                 "file": "ReadMe.md",
+                "mode": "preview",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "368659badb91e5f0",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Part 1 时间截点2024.06.12.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ],
+        "currentTab": 1
+      },
+      {
+        "id": "144647154f04a2bd",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "cec4275cc11ae716",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Part 1 时间截点2024.06.12.md",
                 "mode": "preview",
                 "source": false
               }
@@ -103,7 +116,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "ReadMe.md",
+                "file": "Part 1 时间截点2024.06.12.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -120,7 +133,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "ReadMe.md",
+                "file": "Part 1 时间截点2024.06.12.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -143,7 +156,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "ReadMe.md"
+                "file": "Part 1 时间截点2024.06.12.md"
               }
             }
           }
@@ -163,9 +176,11 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "270a2d8e2036cd21",
+  "active": "368659badb91e5f0",
   "lastOpenFiles": [
     "未命名.md",
+    "Part 1 时间截点2024.06.12.md",
+    "未命名",
     "ReadMe.md"
   ]
 }
